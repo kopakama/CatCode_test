@@ -1,0 +1,38 @@
+.search-input-wrapper{
+    position: relative;
+}
+
+.search-input-wrapper:before {
+    content: "\f002";
+    font-family: FontAwesome;
+    font-size: 15px;
+    color: #444;
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    position: absolute;
+    left: 18px;
+    top: 20px;
+    z-index: 1;
+}
+
+.search-input {
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 600;
+    width: 100%;
+    display: block;
+    padding: 18px 40px;
+    border: 1px solid #008cff;
+    border-radius: 3px;
+    outline: 0;
+}
+
+.container {
+    width: 100%;
+    max-width: 1140px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
